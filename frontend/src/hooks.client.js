@@ -6,10 +6,3 @@ pb.authStore.onChange(() => {
   currentUser.set(pb.authStore.model)
   document.cookie = pb.authStore.exportToCookie({ httpOnly: false })
 }, true)
-
-
-if (pb.authStore.isValid) {
-  console.log(pb.authStore.model.id)
-} else {
-  console.log("Not Authed")
-}

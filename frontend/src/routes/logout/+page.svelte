@@ -1,1 +1,6 @@
-<h1>Logout (this will be an audo redirect)</h1>
+<script>
+  import {pb} from '$lib/pocketbase.js'
+  import { goto } from '$app/navigation';
+  pb.authStore.clear()
+  goto('/login')
+</script>
