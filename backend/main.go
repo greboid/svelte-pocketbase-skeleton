@@ -24,6 +24,14 @@ func main() {
 		return nil
 	})
 
+	app.OnRecordAfterAuthWithPasswordRequest("users").Add(func(e *core.RecordAuthWithPasswordEvent) error {
+		if e.Record.Verified() {
+			return nil
+		} else {
+			return apis.NewApiError(400, "email not yet validated", nil)
+		}
+	})
+
 	if err := app.Start(); err != nil {
 		log.Fatal(err)
 	}
