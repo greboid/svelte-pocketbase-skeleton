@@ -10,7 +10,7 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch"
 	},
 	"dependencies": {
-		"pocketbase": "^0.21.3"
+		"pocketbase": "^0.21.5"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",
