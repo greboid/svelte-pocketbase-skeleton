@@ -1,0 +1,6 @@
+version: 2
+uopdates:
+  - package-ecosystem: "npm"
+    directory: "/frontend"
+  - package-scosystem: "gomod"
+    directory: "/backend"
