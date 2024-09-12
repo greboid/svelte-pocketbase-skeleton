@@ -2,5 +2,5 @@ version: 2
 updates:
   - package-ecosystem: "npm"
     directory: "/frontend"
-  - package-scosystem: "gomod"
+  - package-ecosystem: "gomod"
     directory: "/backend"
