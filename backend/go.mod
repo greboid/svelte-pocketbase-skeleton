@@ -4,7 +4,7 @@ go 1.22
 toolchain go1.23.3
 
 require (
-	github.com/pocketbase/dbx v1.10.1
+	github.com/pocketbase/dbx v1.11.0
 	github.com/pocketbase/pocketbase v0.23.5
 )
 
