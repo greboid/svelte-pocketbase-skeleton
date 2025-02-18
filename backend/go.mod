@@ -5,7 +5,7 @@ toolchain go1.23.3
 
 require (
 	github.com/pocketbase/dbx v1.11.0
-	github.com/pocketbase/pocketbase v0.25.4
+	github.com/pocketbase/pocketbase v0.25.5
 )
 
 require (
@@ -63,9 +63,8 @@ require (
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20250207221924-e9438ea467c6 // indirect
 	google.golang.org/grpc v1.70.0 // indirect
 	google.golang.org/protobuf v1.36.5 // indirect
-	modernc.org/libc v1.61.4 // indirect
+	modernc.org/libc v1.61.13 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
 	modernc.org/memory v1.8.2 // indirect
-	modernc.org/sqlite v1.34.5 // indirect
-	modernc.org/strutil v1.2.1 // indirect
+	modernc.org/sqlite v1.35.0 // indirect
 )
