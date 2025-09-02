@@ -20,7 +20,7 @@
 		"svelte": "^5.38.1",
 		"svelte-check": "^4.3.0",
 		"typescript": "^5.8.3",
-		"vite": "^7.0.6",
+		"vite": "^7.1.4",
 		"@lowlighter/matcha": "^3.0.0"
 	},
 	"type": "module"
