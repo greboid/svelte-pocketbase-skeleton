@@ -10,7 +10,6 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch"
 	},
 	"dependencies": {
-		"cookie": "^0.7.2",
 		"pocketbase": "^0.26.2"
 	},
 	"devDependencies": {
@@ -22,7 +21,8 @@
 		"svelte": "^5.38.6",
 		"svelte-check": "^4.3.1",
 		"typescript": "^5.9.2",
-		"vite": "^7.1.4"
+		"vite": "^7.1.4",
+		"cookie": "^0.7.2"
 	},
 	"type": "module"
 }
