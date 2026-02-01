@@ -10,7 +10,7 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch"
 	},
 	"dependencies": {
-		"pocketbase": "^0.26.5"
+		"pocketbase": "^0.26.8"
 	},
 	"devDependencies": {
 		"@lowlighter/matcha": "^3.0.1",
